@@ -1,0 +1,83 @@
+body{
+    background-image: url("fundoformulario2.png");
+    background-size: cover;
+}
+
+#resilialogo{
+    margin-top: 7%;
+    margin-left: 4%;
+    padding-bottom: 50px;
+}
+
+.conteudo{
+    height: 85px;
+    padding-top: 50px;
+}
+h1{
+    font-size: 48px;
+    margin-left: 4%;
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+
+
+}
+
+h2{
+    margin-left: 4%;
+    font-family: "Archivo", sans-serif;
+    line-height: 28px;
+    opacity: 0.6;
+    font-size: 15px;
+    margin-right: 0%;
+}
+
+.marcar{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+fieldset{
+    position: relative;
+    font-family: "Archivo", sans-serif;
+    margin-left: 65%;
+    margin-bottom: 140px;
+    width: 30%;
+    height: 375px;
+    padding: 15px;
+    display: block;
+    border-style:groove
+    border-width: 5px;
+    border-color:yellow
+}
+
+h3{
+    text-align: center;
+    font-size:22px;
+}
+
+#nome{
+    margin-bottom: 10px;
+}
+
+#email{
+    margin-bottom: 10px;
+}
+
+#celular{
+    margin-bottom: 10px;
+}
+
+#conheceu{
+    margin-bottom: 10px;
+}
+
+#politica{
+    margin-bottom: 15px;
+}
+
+#botao{
+}
+
+.itemformulario{
+    width: 180x;
+}
