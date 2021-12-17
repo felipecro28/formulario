@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Resilia - Inscreva-se agora para nossa próxima turma :) </title>
+    <link href="formuario.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+    </style>
+</head>
+<body>
+    <div = class="conteudo">
+        <img id="resilialogo" src="https://www.inscricoes.resilia.dev/wp-content/themes/resilia/media/resilia-logo/resilia-logo.svg">
+        <h1>Prepare-se para a
+            <br>
+            experiência que vai
+            <br>
+            <span class = marcar> mudar a sua vida!</span></h1>
+        <h2>Quer começar de vez sua carreira na área Tech?
+            <br>
+            Em 6 meses, você vai aprender TUDO que precisa para começar
+            <br>
+            a trabalhar como Dev Jr com a metodologia Resilia!</h2>
+    </div>
+
+    <div>
+        <form>
+            <fieldset>
+                <h3>Formação WebDev Resilia</h3>
+                <div id="nome" class="itemformulario">
+                    <label>Nome Completo: </label>
+                    <br>
+                    <input type="text" name = "nome" id="nome">
+                </div>
+
+                <div id="email" class="itemformulario">
+                    <label>Email: </label>
+                    <br>
+                    <input type="email" name = "email" id="email">
+                </div>
+
+                <div id="celular" class="itemformulario">
+                    <label>Celular/Whatsapp: </label>
+                    <br>
+                    <input type="text" name = "celular" id="celular">
+                </div>
+
+                <div id="conheceu" class="itemformulario">
+                    <label>Como você conheceu a Resilia?: </label>
+                    <br>
+                    <input list="options" name = "resilia" id="resilia">
+                    <datalist id="options">
+                        <option value = "Anuncio no Facebook/Instagram">
+                        <option value = "Anuncio no Google/Outros Sites">
+                        <option value = "Divulgação de alguma empresa parceira">
+                        <option value = "Imprensa (jornais, tv)">
+                        <option value = "Indicação de amigos">
+                        <option value = "Outros">
+                    </datalist>
+                </div>
+
+                <div id="politica" class="itemformulario">
+                    <label>Você concorda com a nossa política de privacidade?</label>
+                    <br>
+                    <label>
+                        <input type="radio" name="simounao" value="sim" checked>Sim
+                    </label>
+                    <label>
+                        <input type="radio" name="simounao" value="não">Não
+                    </label>
+                </div>
+
+                <div class="botao">
+                    <button type="submit">Quero me inscrever!</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
